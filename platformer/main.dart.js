@@ -47354,7 +47354,7 @@ $S:11}
 F.N8.prototype={}
 F.yl.prototype={
 M:function(a,b){var s,r,q=null,p=new M.OD()
-p.iy("[Web]")
+p.iy("[WEB]")
 s=G.a75()
 s.toString
 if(s!==$.a1O()){s=G.a75()
@@ -47363,15 +47363,14 @@ s=s===$.a1K()}else s=!0
 if(s){p.iy("Not a Mobile OS")
 s=!0}else{s=G.a18()
 s.toString
-if(s===$.a1H()){p.iy("Mobile OS with Chrome")
-s=!0}else{s=G.a18()
+if(s===$.a1H())p.iy("Mobile OS with Chrome")
+else{s=G.a18()
 s.toString
-if(s===$.a1M()){p.iy("Mobile OS with Safari")
-s=!0}else{s=G.a18()
+if(s===$.a1M())p.iy("Mobile OS with Safari")
+else{s=G.a18()
 s.toString
 if(s===$.a1I())p.iy("Mobile OS with Firefox")
-else p.iy("Mobile OS with non supported browser")
-s=!1}}}$.ZK().toString
+else p.iy("Mobile OS with non supported browser")}}s=!1}$.ZK().toString
 r=X.a4S(q,C.fw)
 return new S.pS(s?new F.q3("Platform Rig",q):new E.AT("https://apps.apple.com/us/app/iconnect-client/id625286295","https://play.google.com/store/apps/details?id=com.tigertms.inotify",q),"Platform Test Rig",r,q)}}
 F.q3.prototype={
