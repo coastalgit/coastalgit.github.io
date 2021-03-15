@@ -47545,40 +47545,42 @@ $C:"$2",
 $R:2,
 $S:308}
 F.lN.prototype={
-L:function(a,b){var s,r,q=new M.OS()
-q.dD("[WEB IFACE]")
+L:function(a,b){var s,r,q,p=new M.OS()
+p.dD("[WEB IFACE]")
 s=G.vf()
 s.toString
-if(s===$.a_9())q.dD("[P] isWindows")
+if(s===$.a_9())p.dD("[P] isWindows")
 s=G.vf()
 s.toString
-if(s===$.a_7())q.dD("[P] isMac")
+if(s===$.a_7())p.dD("[P] isMac")
 s=G.vf()
 s.toString
-if(s===$.a21())q.dD("[P] isLinux")
+if(s===$.a21())p.dD("[P] isLinux")
 s=G.vf()
 s.toString
-if(s===$.a25())q.dD("[P] isUnix")
+if(s===$.a25())p.dD("[P] isUnix")
 s=G.vf()
 s.toString
 if(s!==$.a_9()){s=G.vf()
 s.toString
 s=s===$.a_7()}else s=!0
-if(s){q.dD("[P] Not a Mobile OS")
-s=!0}else{q.dD("[P] Mobile OS")
+if(s){p.dD("[P] Not a Mobile OS")
+s=!0}else{p.dD("[P] Mobile OS")
 s=!1}r=G.Ze()
 r.toString
-if(r===$.a1Z())q.dD("[P] Is Chrome")
-else{r=G.Ze()
+if(r===$.a1Z()){p.dD("[P] Is Chrome")
+q=!0}else q=!1
+r=G.Ze()
 r.toString
-if(r===$.a23())q.dD("[P] Is Safari")
-else{r=G.Ze()
+if(r===$.a23()){p.dD("[P] Is Safari")
+q=!0}r=G.Ze()
 r.toString
-if(r===$.a2_())q.dD("[P] Is Firefox")
-else{r=G.Ze()
+if(r===$.a2_()){p.dD("[P] Is Firefox")
+q=!0}r=G.Ze()
 r.toString
-if(r===$.a26())q.dD("[P] Is WKWebView")
-else q.dD("[P] Non supported browser")}}}$.HT().toString
+if(r===$.a26()){p.dD("[P] Is WKWebView")
+q=!0}if(!q)p.dD("[P] Non supported browser")
+$.HT().toString
 return s?new F.q8("Platform Rig ["+this.c+"]",null):new E.B2("https://apps.apple.com/us/app/iconnect-client/id625286295","https://play.google.com/store/apps/details?id=com.tigertms.inotify",null)}}
 F.q8.prototype={
 as:function(){return new F.Ef(C.l)}}
