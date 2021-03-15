@@ -47546,7 +47546,7 @@ $R:2,
 $S:308}
 F.lN.prototype={
 L:function(a,b){var s,r,q,p=new M.OS()
-p.dD("[WEB IFACE]")
+p.dD("[WEB]")
 s=G.vf()
 s.toString
 if(s===$.a_9())p.dD("[P] isWindows")
