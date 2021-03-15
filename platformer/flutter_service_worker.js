@@ -8,12 +8,12 @@ const RESOURCES = {
 "assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
 "assets/AssetManifest.json": "2efbb41d7877d10aac9d091f58ccd7b9",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
-"assets/NOTICES": "0c040ad61a84d8646fef25259373d51e",
-"index.html": "06fcd19bd2c923c78515cf754dd629d7",
-"/": "06fcd19bd2c923c78515cf754dd629d7",
+"assets/NOTICES": "cb39cf10da1e6eac4d1c16e2af550684",
+"index.html": "bec0091fd9bdc31c52f47c99c8e24aa9",
+"/": "bec0091fd9bdc31c52f47c99c8e24aa9",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"main.dart.js": "daec74e65e5d2bc81454cdb8e009755e",
+"main.dart.js": "2dff72fb09905873625f4f5fcfc7b521",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "manifest.json": "012167202c0fead7214f565eb2b36fa4"
 };
